@@ -13,6 +13,8 @@ The dataset is split up as follows:
     101 validation pairs
     233 test pairs
 
+input image and labelled image of dataset
+![Input](/media/input.png)
 
 ## Code:
 
@@ -20,6 +22,9 @@ The dataset is split up as follows:
 [Tensorflow Implementation](/u_net_for_self_driving_cars.ipynbu_net)  <br>
 Referred from Kaggle
 
+## Output:
+
+![Output](/media/unet_out.png)
 
 ## Accuracy: </br>
 Data was trained on google co-lab for 500 epochs</br>

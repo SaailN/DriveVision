@@ -2,19 +2,11 @@
 
 ## Datasets
 
-CamVid Dataset
-https://www.kaggle.com/datasets/carlolepelaars/camvid
+Dataset
+[Link to the Dataset](https://www.kaggle.com/datasets/kumaresanmanickavelu/lyft-udacity-challenge)
+Dataset with Semantic Segmentation Labels generated via CARLA simulator.
+This dataset provides data images and labeled semantic segmentations captured via CARLA self-driving car simulator.  This dataset can be used to train ML algorithms to identify semantic segmentation of cars, roads etc in an image. The data set contains sets of RGB and the corresponding semantic segments.
 
-The Cambridge-driving Labeled Video Database (CamVid) provides ground truth labels that associate each pixel with one of 32 semantic classes. This dataset is often used in (real-time) semantic segmentation research.
-
-The dataset is split up as follows:
-
-    367 training pairs
-    101 validation pairs
-    233 test pairs
-
-input image and labelled image of dataset
-![Input](/media/input.png)
 
 ## Code:
 
@@ -27,8 +19,8 @@ Referred from Kaggle
 ![Output](/media/unet_out.png)
 
 ## Accuracy: </br>
-Data was trained on google co-lab for 500 epochs</br>
-Accuracy was around 75%
+Data was trained on google co-lab for 20 epochs</br>
+Accuracy was  91%
 Accuracy can be improved by having more datasets
 
 
